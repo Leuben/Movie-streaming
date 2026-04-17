@@ -1,0 +1,93 @@
+
+/* PAGE */
+.subscription-page {
+  padding: 24px;
+}
+
+/* SUBHEADING */
+.subscription-subheading {
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+
+/* CURRENT PLAN */
+.subscription-current {
+  margin-bottom: 24px;
+  padding: 18px;
+  border-radius: 16px;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+}
+
+/* GRID */
+.subscription-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* PLAN CARD */
+.subscription-plan-card {
+  background-color: var(--surface);
+  padding: 24px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* BENEFITS LIST */
+.subscription-benefits {
+  list-style: disc;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+/* BUTTON OVERRIDE */
+.subscription-button {
+  margin-top: auto !important;
+}
+
+/* LOGIN CARD */
+.subscription-card {
+  background-color: var(--surface);
+  padding: 24px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+/* LINKS */
+.subscription-link {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background-color: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+
+  &.secondary {
+    background-color: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
