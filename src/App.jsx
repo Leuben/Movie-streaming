@@ -65,7 +65,7 @@ export default function App() {
                                 <Route path="/movies" element={<Movies />} />
                                 <Route path="/profile" element={<Profile />} />
                                 <Route path="/subscription" element={<Subscription />} />
-                                <Route path="*" element={<Home />} />
+                                {/* <Route path="*" element={<Home />} /> */}
                                 <Route path="/admin" element={<Admin />} />
                             </Routes>
                         </div>

@@ -113,7 +113,7 @@ const styles = {
         gap: '16px',
         marginBottom: '20px',
         flexWrap: 'wrap',
-        color: '#f3efef'
+        color: '#912a2aff'
     },
     grid: {
         display: 'grid',

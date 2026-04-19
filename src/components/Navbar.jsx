@@ -66,9 +66,10 @@ export default function Navbar() {
                     ☰
                 </IconButton>
                 <div style={styles.leubenLogo}>
-                    <Link to="/" style={styles.brand}>
+                    <Link to="/" style={styles.rwbrand}>
                         <img src="/posters/logo.png" alt="RwandaFlix Logo"
-                            style={styles.logo} />  <h5>RwandaFlix</h5>
+                            style={styles.logo} /> 
+                             <h5>RwandaFlix</h5>
                     </Link>
                 </div>
             </div>
@@ -129,18 +130,19 @@ const styles = {
         position: 'sticky',
         top: 0,
         zIndex: 1000,
-        color: 'var(--text)',
+        color: '#000000',
         padding: '14px 24px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
         flexWrap: 'wrap',
         gap: '12px',
-        borderBottom: '1px solid var(--glass-border)'
+        borderBottom: '1px solid var(--glass-border)',
+        // background: '#4d3935ffa'
     },
-    brand: {
-        color: 'var(--primary)',
-        fontSize: '22px',
+    rwbrand: {
+        color: 'rgba(250, 255, 255, 0)',
+        fontSize: '30px',
         fontWeight: '700',
         textDecoration: 'none',
         display: 'flex',
